@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fContainer">
+
+        <header>
+            <div class="navWrapper">
+                <nav>
+                    <h1>BOOKSHELF APPS</h1>
+                    <form>
+                        <input type="text" placeholder="Search. . .">
+                        <button>Cari</button>
+                    </form>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="contentWrapper">
+                <div class="contentWrapperAdd">
+                    <section class="addNewBook">
+                        <h1>Tambahkan Buku Baru</h1>
+                        <div class="formWrapper">
+                            <form>
+                                <h3>Judul</h3>
+                                <input id="inputJudul" type="text">
+                                <h3>Penulis</h3>
+                                <input type="text" id="creator">
+                                <h3>Tahun</h3>
+                                <input type="date" id="tanggal" required>
+                            </form>
+                        </div>
+                        <h3>Selesai Dibaca <input type="checkbox" id="unreadBook"></h3>
+                        <br>
+                        <button id="addBookBtn">Tambahkan Buku</button>
+                    </section>
+                </div>
+                <div class="contentWrapReadUnread">
+                    <div class="contentUnread">
+                        <section class="unRead">
+                            <h1>Belum Dibaca</h1>
+                            <div class="sectionunRead">
+                                <div class="titleUnread">
+                                    <!-- list item -->
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="contentReaded">
+                        <section class="readed">
+                            <h1>Sudah Dibaca</h1>
+                            <div class="sectionRead">
+                                <div class="titleRead">
+                                    <!-- list readed -->
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.navWrapper {
+    position: fixed;
+    width: 100%;
+    background-color: midnightblue;
+}
+
+.navWrapper > nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+}
+
+.navWrapper > nav > h1 {
+    color: aqua;
+}
+
+.navWrapper > nav > form > input {
+    font-size: medium;
+    border-radius: 30px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+}
+
+.navWrapper > nav > form > button {
+    width: 60px;
+    height: 30px;
+    font-size: medium;
+    border: none;
+    border-radius: 30px;
+    background-color: aqua;
+    color: midnightblue;
+    cursor: pointer;
+}
+
+.navWrapper > nav > form > button:hover {
+    background-color: dodgerblue;
+    color: aqua;
+}
+
+.contentWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contentWrapperAdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.addNewBook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 30px;
+    width: 500px;
+    height: 350px;
+    flex-direction: column;
+    margin: 40px;
+    box-shadow: 4px 9px 23px -1px rgba(0,0,0,0.44);
+}
+
+.addNewBook > button {
+    height: 30px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+    color: aqua;
+    cursor: pointer;
+}
+
+.addNewBook > button:hover{
+    background-color: midnightblue;
+}
+
+.formWrapper {
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+.formWrapper > form > input {
+    width: 400px;
+    height: 30px;
+    font-size: large;
+    margin-bottom: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.contentUnread {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    background-color: aqua;
+    border-radius: 20px;
+    margin : 40px;
+    box-shadow: 4px 9px 23px -1px rgba(0,0,0,0.44);
+    padding: 20px;
+}
+
+.unRead {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionunRead {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleUnread {
+    padding-right: 10px;
+}
+
+.penulisUnread {
+    padding-right: 10px;
+}
+
+.tahunUnread {
+    padding-right: 10px;
+}
+
+.changeItem {
+    display: flex;
+    flex-direction: row;
+}
+.deleteItem {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.readItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentReaded {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    background-color: aqua;
+    border-radius: 20px;
+    margin : 40px;
+    box-shadow: 4px 9px 23px -1px rgba(0,0,0,0.44);
+    padding: 20px;
+}
+
+.readed {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionRead {
+    display: flex;
+    flex-direction: row;
+}
+
+.titleRead {
+    padding-right: 10px;
+}
